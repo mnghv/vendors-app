@@ -1,0 +1,260 @@
+{
+  "fa": {
+    "header": {
+      "title": "پنل مدیریت فروشندگان",
+      "brandName": "Vendor System",
+      "search": "جستجو",
+      "searchPlaceholder": "جستجو در فروشندگان...",
+      "searchBelow": "جستجو در پایین",
+      "addVendor": "افزودن فروشنده",
+      "totalVendors": "کل فروشندگان",
+      "displayedVendors": "فروشندگان نمایش داده شده"
+    },
+    "vendor": {
+      "status": {
+        "active": "فعال",
+        "inactive": "غیرفعال",
+        "pending": "در انتظار"
+      },
+      "actions": {
+        "showOnMap": "نمایش روی نقشه",
+        "contact": "تماس",
+        "edit": "ویرایش",
+        "delete": "حذف"
+      }
+    },
+    "vendorList": {
+      "addNewVendor": "افزودن فروشنده جدید",
+      "itemsFound": "مورد پیدا شد",
+      "responsible": "مسئول:",
+      "contact": "تماس:",
+      "editInfo": "ویرایش اطلاعات",
+      "deleteVendor": "حذف فروشنده",
+      "showOnMap": "نمایش روی نقشه",
+      "contactVendor": "تماس",
+      "noVendorsFound": "فروشنده‌ای یافت نشد",
+      "noVendorsAvailable": "هیچ فروشنده‌ای وجود ندارد",
+      "searchChangeMessage": "لطفاً عبارت جستجوی خود را تغییر دهید یا فروشنده جدیدی اضافه کنید.",
+                  "addFirstVendorMessage": "برای شروع، اولین فروشنده خود را اضافه کنید.",
+            "loadingMoreVendors": "در حال بارگذاری فروشندگان بیشتر...",
+            "searchResultsFor": "نتایج جستجو برای",
+            "moreAvailable": "بیشتر موجود"
+    },
+    "modal": {
+      "addNewVendor": "افزودن فروشنده جدید",
+      "editVendor": "ویرایش فروشنده",
+      "brandNamePersian": "نام برند (فارسی)",
+      "brandNameEnglish": "نام برند (انگلیسی)",
+      "brandNamePersianPlaceholder": "نام برند را وارد کنید",
+      "brandNameEnglishPlaceholder": "نام برند به انگلیسی وارد کنید",
+      "ownerNamePersian": "نام صاحب (فارسی)",
+      "ownerNameEnglish": "نام صاحب (انگلیسی)",
+      "ownerNamePersianPlaceholder": "نام صاحب را وارد کنید",
+      "ownerNameEnglishPlaceholder": "نام صاحب را به انگلیسی وارد کنید",
+      "phoneNumber": "شماره تلفن",
+      "phoneNumberPlaceholder": "09123456789",
+      "logoUrl": "آدرس لوگو",
+      "logoUrlPlaceholder": "https://example.com/logo.png",
+      "autoGenerate": "تولید خودکار",
+      "addressPersian": "آدرس (فارسی)",
+      "addressPersianPlaceholder": "آدرس را به فارسی وارد کنید",
+      "addressEnglish": "آدرس (انگلیسی)",
+      "addressEnglishPlaceholder": "آدرس را به انگلیسی وارد کنید",
+      "cancel": "انصراف",
+      "add": "افزودن",
+      "update": "بروزرسانی",
+      "validation": {
+        "brandNameRequired": "نام برند الزامی است",
+        "brandNameEnglishRequired": "نام برند به انگلیسی الزامی است",
+        "ownerNameRequired": "نام صاحب الزامی است",
+        "ownerNameEnglishRequired": "نام صاحب به انگلیسی الزامی است",
+        "phoneNumberRequired": "شماره تلفن الزامی است",
+        "phoneNumberInvalid": "شماره تلفن معتبر نیست"
+      }
+    },
+    "deleteModal": {
+      "title": "حذف فروشنده",
+      "message": "آیا از حذف فروشنده اطمینان دارید؟ این عملیات قابل بازگشت نیست.",
+      "cancel": "انصراف",
+      "delete": "حذف"
+    },
+    "toast": {
+      "vendorAdded": "فروشنده جدید با موفقیت اضافه شد",
+      "vendorUpdated": "فروشنده با موفقیت بروزرسانی شد",
+      "vendorDeleted": "فروشنده با موفقیت حذف شد",
+      "vendorShownOnMap": "فروشنده روی نقشه نمایش داده شد",
+      "contactInitiated": "تماس با فروشنده آغاز شد",
+      "error": "خطا در ذخیره اطلاعات"
+    },
+    "map": {
+      "title": "نقشه فروشندگان",
+      "subtitle": "موقعیت مکانی تمام فروشندگان",
+      "fullscreenTitle": "نقشه فروشندگان - حالت تمام صفحه",
+      "fullscreenMode": "حالت تمام صفحه",
+      "exitFullscreen": "خروج از حالت تمام صفحه",
+      "closeMap": "بستن نقشه",
+      "noVendors": "هیچ فروشنده‌ای یافت نشد",
+      "addVendorsToSee": "فروشندگان را اضافه کنید تا روی نقشه ببینید",
+      "vendorsOnMap": "فروشنده روی نقشه",
+      "controls": {
+        "zoomInstruction": "برای بزرگنمایی: اسکرول کنید",
+        "moveInstruction": "برای حرکت: کلیک و بکشید"
+      },
+      "status": "وضعیت"
+    },
+    "page": {
+      "title": "پنل مدیریت فروشندگان",
+      "subtitle": "مدیریت آسان فروشندگان، مشاهده موقعیت مکانی و ارتباط بهتر با تیم فروش",
+      "stats": {
+        "totalVendors": "کل فروشندگان",
+        "totalVendorsDesc": "تعداد کل فروشندگان ثبت شده",
+        "activeVendors": "فروشندگان فعال",
+        "activeVendorsDesc": "فروشندگان نمایش داده شده",
+        "coveredRegions": "مناطق تحت پوشش",
+        "coveredRegionsDesc": "تعداد مناطق مختلف"
+      }
+    },
+    "navigation": {
+      "backToList": "بازگشت به لیست",
+      "viewMap": "مشاهده نقشه"
+    },
+    "loading": {
+      "title": "در حال بارگذاری...",
+      "subtitle": "لطفاً صبر کنید",
+      "generic": "در حال بارگذاری...",
+      "vendorPanel": "در حال بارگذاری پنل مدیریت فروشندگان..."
+    },
+    "footer": {
+      "poweredBy": "قدرت گرفته از"
+    }
+  },
+  "en": {
+    "header": {
+      "title": "Vendor Management Panel",
+      "brandName": "Vendor System",
+      "search": "Search",
+      "searchPlaceholder": "Search vendors...",
+      "searchBelow": "Search below",
+      "addVendor": "Add Vendor",
+      "totalVendors": "Total Vendors",
+      "displayedVendors": "Displayed Vendors"
+    },
+    "vendor": {
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "pending": "Pending"
+      },
+      "actions": {
+        "showOnMap": "Show on Map",
+        "contact": "Contact",
+        "edit": "Edit",
+        "delete": "Delete"
+      }
+    },
+    "vendorList": {
+      "addNewVendor": "Add New Vendor",
+      "itemsFound": "items found",
+      "responsible": "Responsible:",
+      "contact": "Contact:",
+      "editInfo": "Edit Information",
+      "deleteVendor": "Delete Vendor",
+      "showOnMap": "Show on Map",
+      "contactVendor": "Contact",
+      "noVendorsFound": "No vendors found",
+      "noVendorsAvailable": "No vendors available",
+      "searchChangeMessage": "Please change your search term or add a new vendor.",
+                  "addFirstVendorMessage": "To get started, add your first vendor.",
+            "loadingMoreVendors": "Loading more vendors...",
+            "searchResultsFor": "Search results for",
+            "moreAvailable": "More available"
+    },
+    "modal": {
+      "addNewVendor": "Add New Vendor",
+      "editVendor": "Edit Vendor",
+      "brandNamePersian": "Brand Name (Persian)",
+      "brandNameEnglish": "Brand Name (English)",
+      "brandNamePersianPlaceholder": "Enter brand name in Persian",
+      "brandNameEnglishPlaceholder": "Enter brand name in English",
+      "ownerNamePersian": "Owner Name (Persian)",
+      "ownerNameEnglish": "Owner Name (English)",
+      "ownerNamePersianPlaceholder": "Enter owner name in Persian",
+      "ownerNameEnglishPlaceholder": "Enter owner name in English",
+      "phoneNumber": "Phone Number",
+      "phoneNumberPlaceholder": "09123456789",
+      "logoUrl": "Logo URL",
+      "logoUrlPlaceholder": "https://example.com/logo.png",
+      "autoGenerate": "Auto Generate",
+      "addressPersian": "Address (Persian)",
+      "addressPersianPlaceholder": "Enter address in Persian",
+      "addressEnglish": "Address (English)",
+      "addressEnglishPlaceholder": "Enter address in English",
+      "cancel": "Cancel",
+      "add": "Add",
+      "update": "Update",
+      "validation": {
+        "brandNameRequired": "Brand name is required",
+        "brandNameEnglishRequired": "Brand name in English is required",
+        "ownerNameRequired": "Owner name is required",
+        "ownerNameEnglishRequired": "Owner name in English is required",
+        "phoneNumberRequired": "Phone number is required",
+        "phoneNumberInvalid": "Invalid phone number"
+      }
+    },
+    "deleteModal": {
+      "title": "Delete Vendor",
+      "message": "Are you sure you want to delete this vendor? This action cannot be undone.",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "toast": {
+      "vendorAdded": "New vendor added successfully",
+      "vendorUpdated": "Vendor updated successfully",
+      "vendorDeleted": "Vendor deleted successfully",
+      "vendorShownOnMap": "Vendor shown on map",
+      "contactInitiated": "Contact with vendor initiated",
+      "error": "Error saving data"
+    },
+    "map": {
+      "title": "Vendors Map",
+      "subtitle": "Location of all vendors",
+      "fullscreenTitle": "Vendors Map - Fullscreen",
+      "fullscreenMode": "Fullscreen mode",
+      "exitFullscreen": "Exit fullscreen",
+      "closeMap": "Close map",
+      "noVendors": "No vendors found",
+      "addVendorsToSee": "Add vendors to see them on the map",
+      "vendorsOnMap": "vendors on map",
+      "controls": {
+        "zoomInstruction": "To zoom: Scroll",
+        "moveInstruction": "To move: Click and drag"
+        },
+      "status": "Status"
+    },
+    "page": {
+      "title": "Vendor Management Panel",
+      "subtitle": "Easy vendor management, viewing location, and better communication with the sales team",
+      "stats": {
+        "totalVendors": "Total Vendors",
+        "totalVendorsDesc": "Total registered vendors",
+        "activeVendors": "Active Vendors",
+        "activeVendorsDesc": "Displayed vendors",
+        "coveredRegions": "Covered Regions",
+        "coveredRegionsDesc": "Number of different regions"
+      }
+    },
+    "navigation": {
+      "backToList": "Back to List",
+      "viewMap": "View Map"
+    },
+    "loading": {
+      "title": "Loading...",
+      "subtitle": "Please wait",
+      "generic": "Loading...",
+      "vendorPanel": "Loading your vendor management panel..."
+    },
+    "footer": {
+      "poweredBy": "Powered by"
+    }
+  }
+}

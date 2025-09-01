@@ -1,0 +1,252 @@
+[
+  {
+    "id": "1",
+    "username": "vendor1",
+    "brandName": {
+      "fa": "فروشگاه الکترونیک تهران",
+      "en": "Tehran Electronics Store"
+    },
+    "ownerName": {
+      "fa": "احمد محمدی",
+      "en": "Ahmad Mohammadi"
+    },
+    "phoneNumber": "09123456789",
+    "location": {
+      "lat": 35.6892,
+      "lng": 51.389,
+      "address": {
+        "fa": "تهران، خیابان ولیعصر، پلاک 123",
+        "en": "Tehran, Valiasr St, No. 123"
+      }
+    },
+    "logoUrl": "https://avatar.iran.liara.run/username?username=Ahmad+Mohammadi",
+    "status": "active",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "username": "vendor2",
+    "brandName": {
+      "fa": "مغازه لوازم خانگی",
+      "en": "Home Appliances Shop"
+    },
+    "ownerName": {
+      "fa": "فاطمه احمدی",
+      "en": "Fatemeh Ahmadi"
+    },
+    "phoneNumber": "09187654321",
+    "location": {
+      "lat": 35.7219,
+      "lng": 51.3347,
+      "address": {
+        "fa": "تهران، خیابان انقلاب، پلاک 456",
+        "en": "Tehran, Enghelab St, No. 456"
+      }
+    },
+    "logoUrl": "https://avatar.iran.liara.run/username?username=Fatemeh+Ahmadi",
+    "status": "active",
+    "createdAt": "2024-01-02T00:00:00.000Z",
+    "updatedAt": "2024-01-02T00:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "username": "vendor3",
+    "brandName": {
+      "fa": "فروشگاه پوشاک مدرن",
+      "en": "Modern Clothing Store"
+    },
+    "ownerName": {
+      "fa": "علی رضایی",
+      "en": "Ali Rezaei"
+    },
+    "phoneNumber": "09351234567",
+    "location": {
+      "lat": 35.7578,
+      "lng": 51.4113,
+      "address": {
+        "fa": "تهران، خیابان شریعتی، پلاک 789",
+        "en": "Tehran, Shariati St, No. 789"
+      }
+    },
+    "logoUrl": "https://avatar.iran.liara.run/public/girl?username=Modern+Clothing+Store",
+    "status": "active",
+    "createdAt": "2024-01-03T00:00:00.000Z",
+    "updatedAt": "2024-01-03T00:00:00.000Z"
+  },
+  {
+    "id": "4",
+    "username": "vendor4",
+    "brandName": {
+      "fa": "رستوران سنتی ایرانی",
+      "en": "Traditional Iranian Restaurant"
+    },
+    "ownerName": {
+      "fa": "مریم حسینی",
+      "en": "Maryam Hosseini"
+    },
+    "phoneNumber": "09159876543",
+    "location": {
+      "lat": 35.6961,
+      "lng": 51.4231,
+      "address": {
+        "fa": "تهران، خیابان کریمخان زند، پلاک 321",
+        "en": "Tehran, Karimkhan Zand St, No. 321"
+      }
+    },
+    "logoUrl": "https://avatar.iran.liara.run/public/girl?username=Traditional+Iranian+Restaurant",
+    "status": "active",
+    "createdAt": "2024-01-04T00:00:00.000Z",
+    "updatedAt": "2024-01-04T00:00:00.000Z"
+  },
+  {
+    "id": "5",
+    "username": "vendor5",
+    "brandName": {
+      "fa": "فروشگاه کتاب و لوازم التحریر",
+      "en": "Book and Stationery Store"
+    },
+    "ownerName": {
+      "fa": "حسن کریمی",
+      "en": "Hassan Karimi"
+    },
+    "phoneNumber": "09387654321",
+    "location": {
+      "lat": 35.7111,
+      "lng": 51.4078,
+      "address": {
+        "fa": "تهران، خیابان آزادی، پلاک 654",
+        "en": "Tehran, Azadi St, No. 654"
+      }
+    },
+    "logoUrl": "https://avatar.iran.liara.run/public/girl?username=Book+and+Stationery+Store",
+    "status": "pending",
+    "createdAt": "2024-01-05T00:00:00.000Z",
+    "updatedAt": "2024-01-05T00:00:00.000Z"
+  },
+  {
+    "id": "6",
+    "username": "vendor6",
+    "brandName": {
+      "fa": "کافی شاپ مدرن",
+      "en": "Modern Coffee Shop"
+    },
+    "ownerName": {
+      "fa": "سارا نوری",
+      "en": "Sara Nouri"
+    },
+    "phoneNumber": "09123456789",
+    "location": {
+      "lat": 35.7321,
+      "lng": 51.3987,
+      "address": {
+        "fa": "تهران، خیابان جردن، پلاک 987",
+        "en": "Tehran, Jordan St, No. 987"
+      }
+    },
+    "logoUrl": "https://avatar.iran.liara.run/public/girl?username=Modern+Coffee+Shop",
+    "status": "active",
+    "createdAt": "2024-01-06T00:00:00.000Z",
+    "updatedAt": "2024-01-06T00:00:00.000Z"
+  },
+  {
+    "id": "7",
+    "username": "vendor7",
+    "brandName": {
+      "fa": "فروشگاه موبایل و لوازم جانبی",
+      "en": "Mobile and Accessories Store"
+    },
+    "ownerName": {
+      "fa": "رضا احمدی",
+      "en": "Reza Ahmadi"
+    },
+    "phoneNumber": "09345678901",
+    "location": {
+      "lat": 35.7456,
+      "lng": 51.4123,
+      "address": {
+        "fa": "تهران، خیابان طالقانی، پلاک 147",
+        "en": "Tehran, Taleghani St, No. 147"
+      }
+    },
+    "logoUrl": "https://avatar.iran.liara.run/public/girl?username=Mobile+and+Accessories+Store",
+    "status": "inactive",
+    "createdAt": "2024-01-07T00:00:00.000Z",
+    "updatedAt": "2024-01-07T00:00:00.000Z"
+  },
+  {
+    "id": "8",
+    "username": "vendor8",
+    "brandName": {
+      "fa": "سالن زیبایی و آرایش",
+      "en": "Beauty and Makeup Salon"
+    },
+    "ownerName": {
+      "fa": "نازنین صادقی",
+      "en": "Nazanin Sadeghi"
+    },
+    "phoneNumber": "09156789012",
+    "location": {
+      "lat": 35.7234,
+      "lng": 51.3987,
+      "address": {
+        "fa": "تهران، خیابان پاسداران، پلاک 258",
+        "en": "Tehran, Pasdaran St, No. 258"
+      }
+    },
+    "logoUrl": "https://avatar.iran.liara.run/public/girl?username=Nazanin+Sadeghi",
+    "status": "active",
+    "createdAt": "2024-01-08T00:00:00.000Z",
+    "updatedAt": "2024-01-08T00:00:00.000Z"
+  },
+  {
+    "id": "9",
+    "username": "vendor9",
+    "brandName": {
+      "fa": "فروشگاه ورزشی",
+      "en": "Sports Store"
+    },
+    "ownerName": {
+      "fa": "امیر محمدی",
+      "en": "Amir Mohammadi"
+    },
+    "phoneNumber": "09378901234",
+    "location": {
+      "lat": 35.7123,
+      "lng": 51.4234,
+      "address": {
+        "fa": "تهران، خیابان شهید بهشتی، پلاک 369",
+        "en": "Tehran, Shahid Beheshti St, No. 369"
+      }
+    },
+    "logoUrl": "https://avatar.iran.liara.run/public/girl?username=Sports+Store",
+    "status": "active",
+    "createdAt": "2024-01-09T00:00:00.000Z",
+    "updatedAt": "2024-01-09T00:00:00.000Z"
+  },
+  {
+    "id": "10",
+    "username": "vendor10",
+    "brandName": {
+      "fa": "فروشگاه اسباب بازی",
+      "en": "Toy Store"
+    },
+    "ownerName": {
+      "fa": "فاطمه رضایی",
+      "en": "Fatemeh Rezaei"
+    },
+    "phoneNumber": "09189012345",
+    "location": {
+      "lat": 35.7345,
+      "lng": 51.4123,
+      "address": {
+        "fa": "تهران، خیابان ولیعصر، پلاک 741",
+        "en": "Tehran, Valiasr St, No. 741"
+      }
+    },
+      "logoUrl": "https://avatar.iran.liara.run/public/girl?username=Toy+Store",
+    "status": "pending",
+    "createdAt": "2024-01-10T00:00:00.000Z",
+    "updatedAt": "2024-01-10T00:00:00.000Z"
+  }
+]
