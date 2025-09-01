@@ -130,7 +130,7 @@ export function InitialLoader() {
         <div className='fixed inset-0 bg-background flex items-center justify-center z-50'>
             <div className='text-center'>
                 {/* Animated Logo */}
-                <div className='relative mb-8'>
+                <div className='relative mb-8 flex items-center justify-center'>
                     <div className='mx-auto mb-4'>
                         <AnimatedLogo size='md' showAnimation={true} />
                     </div>
