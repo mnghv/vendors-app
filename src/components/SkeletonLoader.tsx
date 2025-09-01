@@ -3,6 +3,7 @@
 import React, { useMemo } from 'react';
 import { Card, CardBody } from '@heroui/react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { AnimatedLogo } from '@/components/AnimatedLogo';
 
 // Main page skeleton loader
 export function PageSkeleton() {
@@ -130,19 +131,8 @@ export function InitialLoader() {
             <div className='text-center'>
                 {/* Animated Logo */}
                 <div className='relative mb-8'>
-                    <div className='w-20 h-20 mx-auto mb-4 relative'>
-                        {/* Rotating ring */}
-                        <div className='absolute inset-0 border-4 border-primary/20 rounded-full'></div>
-                        <div className='absolute inset-0 border-4 border-transparent border-t-primary rounded-full animate-spin'></div>
-
-                        {/* Inner logo */}
-                        <div className='absolute inset-2 bg-primary/10 rounded-full flex items-center justify-center'>
-                            <div className='w-8 h-8 bg-primary rounded-lg flex items-center justify-center'>
-                                <span className='text-white font-bold text-lg'>
-                                    A
-                                </span>
-                            </div>
-                        </div>
+                    <div className='mx-auto mb-4'>
+                        <AnimatedLogo size='md' showAnimation={true} />
                     </div>
                 </div>
 

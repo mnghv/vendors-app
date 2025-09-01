@@ -16,7 +16,8 @@ import { ThemeSwitch } from '@/components/theme-switch';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { useVendors } from '@/contexts/VendorContext';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { GithubIcon, SearchIcon, Logo, XMarkIcon } from '@/components/icons';
+import { GithubIcon, SearchIcon, XMarkIcon } from '@/components/icons';
+import { AnimatedLogo } from '@/components/AnimatedLogo';
 
 export const Navbar = () => {
     const { state, searchVendors } = useVendors();
@@ -80,7 +81,7 @@ export const Navbar = () => {
                     <NextLink
                         className='flex justify-start items-center gap-1'
                         href='/'>
-                        <Logo />
+                        <AnimatedLogo size='sm' showAnimation={false} />
                         <p className='font-bold text-inherit'>
                             {t('header.brandName')}
                         </p>
@@ -114,7 +115,6 @@ export const Navbar = () => {
             <NavbarContent className='sm:hidden basis-1 pl-4' justify='end'>
                 <LanguageSwitcher />
                 <ThemeSwitch />
-                
             </NavbarContent>
         </HeroUINavbar>
     );
